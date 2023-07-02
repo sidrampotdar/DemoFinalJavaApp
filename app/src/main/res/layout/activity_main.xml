@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/createFileButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create File" />
+
+    <Button
+        android:id="@+id/deleteFileButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete File" />
+
+    <EditText
+        android:id="@+id/sourceCodeEditText"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:hint="Enter Java Source Code" />
+
+    <Button
+        android:id="@+id/compileRunButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Compile & Run" />
+
+    <TextView
+        android:id="@+id/outputTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
